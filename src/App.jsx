@@ -9,7 +9,7 @@ function App() {
   const [rows, setRows] = useState(getUsers)
   const [query, setQuery] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
-  const [pageSize, setPageSize] = useState(10)
+  const [pageSize, setPageSize] = useState(5)
   const [editingRow, setEditingRow] = useState(null)
   const [isFormOpen, setIsFormOpen] = useState(false)
 
